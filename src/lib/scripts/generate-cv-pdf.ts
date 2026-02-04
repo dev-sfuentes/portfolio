@@ -25,7 +25,7 @@ async function generatePDF(lang: string, ats: boolean = false) {
   const browser = await launchBrowser();
   const page = await browser.newPage();
 
-  await page.goto(`${import.meta.env.VITE_URL}/cv`, {
+  await page.goto(`${process.env.VITE_URL}/cv`, {
     waitUntil: "networkidle0",
   });
 
@@ -48,7 +48,9 @@ async function generatePDF(lang: string, ats: boolean = false) {
   }
 
   await page.pdf({
-    path: `public/certificates/${lang}/Santiago-Fuentes-CV${ats ? "-ats" : ""}.pdf`,
+    path: `public/certificates/${lang}/Santiago-Fuentes-CV${
+      ats ? "-ats" : ""
+    }.pdf`,
     width: `${pxToMm(1200)}mm`,
     height: `${pxToMm(1694)}mm`,
     printBackground: true,

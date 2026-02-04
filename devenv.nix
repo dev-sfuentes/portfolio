@@ -7,6 +7,7 @@
     vite
     coreutils
     chromium # Needed for puppeteer
+   tsx
   ];
 
   languages.javascript = {
@@ -21,6 +22,6 @@
   scripts = {
     dev.exec = "pnpm run dev";
     build.exec = "pnpm run build";
-    generate-pdf.exec = "pnpm run ${config.devenv.root}/src/lib/scripts/generate-cv-pdf.ts";
+    generate-pdf.exec = "pnpm exec tsx ${config.devenv.root}/src/lib/scripts/generate-cv-pdf.ts";
   };
 }
