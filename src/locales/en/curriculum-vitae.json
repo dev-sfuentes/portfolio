@@ -1,5 +1,5 @@
 {
-  "title": "Full Stack Developer",
+  "title": "Software Engineer (Full Stack)",
   "engineer": "Computer and Informatics Engineer",
   "section": {
     "experience": "WORK EXPERIENCE",
@@ -68,28 +68,28 @@
   },
   "soft_skills": {
     "learning": {
-      "name": "Continuous Learning",
-      "description": "Constant disposition to incorporate new technologies according to the project requirements"
+      "name": "Continuous learning",
+      "description": "I consistently adopt new technologies as project needs evolve and apply them quickly."
     },
-    "team": {
-      "name": "Teamwork",
-      "description": "Experience collaborating in diverse teams, with focus on communication, cooperation and achievement of objectives"
+    "communication": {
+      "name": "Communication and collaboration",
+      "description": "I align requirements, coordinate with the team, and communicate progress clearly."
     },
-    "proactive": {
-      "name": "Proactivity",
-      "description": "Initiative to detect and advance tasks independently, contributing without constant supervision"
+    "ownership": {
+      "name": "Ownership",
+      "description": "I demonstrate proactivity and autonomy, assuming responsibility for tasks from definition to delivery and validation."
     },
-    "resilence": {
+    "resilience": {
       "name": "Resilience",
-      "description": "Capacity to maintain focus and motivation in the face of technical obstacles or unexpected changes"
+      "description": "I stay focused and adjust plans when requirements change or blockers appear."
     },
-    "kindness": {
-      "name": "Kindness",
-      "description": "Respectful and positive attitude in dealing with colleagues, users and supervisors"
+    "requirements": {
+      "name": "Requirements gathering",
+      "description": "I identify needs, constraints, and priorities with users and stakeholders."
     },
-    "empathy": {
-      "name": "Empathy",
-      "description": "Capacity to understand and consider the points of view of others, facilitating effective communication and collaboration"
+    "problem_solving": {
+      "name": "Problem solving",
+      "description": "I diagnose root causes, propose options, and deliver measurable solutions."
     }
   },
   "education": {

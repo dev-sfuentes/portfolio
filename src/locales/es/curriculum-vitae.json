@@ -1,5 +1,5 @@
 {
-  "title": "Desarrollador Full Stack",
+  "title": "Ingeniero de Software (Full Stack)",
   "engineer": "Ingeniero en Computación e Informática",
   "section": {
     "experience": "EXPERIENCIA LABORAL",
@@ -61,28 +61,28 @@
   },
   "soft_skills": {
     "learning": {
-      "name": "Aprendizaje Continuo",
-      "description": "Disposición constante a incorporar nuevas tecnologías según los requerimientos del proyecto"
+      "name": "Aprendizaje continuo",
+      "description": "Incorporo tecnologías según necesidades del proyecto y las aplico rápidamente."
     },
-    "team": {
-      "name": "Trabajo en equipo",
-      "description": "Experiencia colaborando en equipos diversos, con enfoque en comunicación, cooperación y cumplimiento de objetivos"
+    "communication": {
+      "name": "Comunicación y colaboración",
+      "description": "Alineo requerimientos, coordino con el equipo y comunico avances con claridad."
     },
-    "proactive": {
-      "name": "Proactividad",
-      "description": "Iniciativa para detectar y avanzar tareas de forma independiente, contribuyendo sin necesidad de supervisión constante"
+    "ownership": {
+      "name": "Autonomía",
+      "description": "Demuestro proactividad y autonomía, asumiendo responsabilidad sobre tareas desde su definición hasta su entrega y validación."
     },
-    "resilence": {
+    "resilience": {
       "name": "Resiliencia",
-      "description": "Capacidad para mantener el enfoque y la motivación frente a obstáculos técnicos o cambios inesperados"
+      "description": "Mantengo foco y adapto el plan ante cambios, bloqueos o incidentes."
     },
-    "kindness": {
-      "name": "Amabilidad",
-      "description": "Actitud respetuosa y positiva en el trato con compañeros, usuarios y supervisores"
+    "requirements": {
+      "name": "Levantamiento de requerimientos",
+      "description": "Identifico necesidades, restricciones y prioridades con usuarios y stakeholders."
     },
-    "empathy": {
-      "name": "Empatía",
-      "description": "Capacidad para entender y considerar los puntos de vista de otros, facilitando la comunicación efectiva y la colaboración"
+    "problem_solving": {
+      "name": "Resolución de problemas",
+      "description": "Diagnostico causas, propongo alternativas y ejecuto soluciones medibles."
     }
   },
   "education": {

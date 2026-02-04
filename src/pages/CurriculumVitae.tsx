@@ -173,7 +173,9 @@ export default function CurriculumVitae() {
             {Object.entries(props.certificates).map(([_, certificate], i) => (
               <li key={i} className="text-xs">
                 <a
-                  href={`https://sfuentes.cl/${t("paths:certificates")}/${certificate.url}`}
+                  href={`https://sfuentes.cl/${t("paths:certificates")}/${
+                    certificate.url
+                  }`}
                   className="flex gap-1 items-center"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -245,23 +247,7 @@ export default function CurriculumVitae() {
             <address className="grid grid-cols-[1.5fr_1fr] sm:grid-cols-2 print:grid-cols-3 gap-y-1.5 justify-center items-center not-italic text-xs sm:text-lg print:text-xs">
               <div className="flex gap-2 items-center">
                 <Phone className="w-4 h-4 stroke-[#a13e2d] stroke-3" />
-                <a href="tel:+56986890981">+56 9 8689 0981</a>
-              </div>
-
-              <div className="flex gap-2 items-center">
-                <GithubIcon className="w-4 h-4 fill-[#a13e2d] stroke-[#a13e2d]" />
-                <a
-                  href="https://github.com/ifaen"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ifaen
-                </a>
-              </div>
-
-              <div className="flex gap-2 items-center">
-                <MapPin className="w-4 h-4 stroke-3 stroke-[#a13e2d]" />
-                <p>Punta Arenas, Chile</p>
+                <a href="tel:+56986890981">+569 8689 0981</a>
               </div>
 
               <div className="flex gap-2 items-center">
@@ -272,6 +258,22 @@ export default function CurriculumVitae() {
                   rel="noopener noreferrer"
                 >
                   dev@sfuentes.cl
+                </a>
+              </div>
+
+              <div className="flex gap-2 items-center">
+                <MapPin className="w-4 h-4 stroke-3 stroke-[#a13e2d]" />
+                <p>Punta Arenas, Chile</p>
+              </div>
+
+              <div className="flex gap-2 items-center">
+                <GithubIcon className="w-4 h-4 fill-[#a13e2d] stroke-[#a13e2d]" />
+                <a
+                  href="https://github.com/dev-sfuentes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  dev-sfuentes
                 </a>
               </div>
 
@@ -373,31 +375,33 @@ export default function CurriculumVitae() {
                 )}
               />
               <SoftSkillItem
-                name={t("curriculum_vitae:soft_skills.team.name")}
-                description={t("curriculum_vitae:soft_skills.team.description")}
-              />
-              <SoftSkillItem
-                name={t("curriculum_vitae:soft_skills.proactive.name")}
+                name={t("curriculum_vitae:soft_skills.communication.name")}
                 description={t(
-                  "curriculum_vitae:soft_skills.proactive.description"
+                  "curriculum_vitae:soft_skills.communication.description"
                 )}
               />
               <SoftSkillItem
-                name={t("curriculum_vitae:soft_skills.resilence.name")}
+                name={t("curriculum_vitae:soft_skills.ownership.name")}
                 description={t(
-                  "curriculum_vitae:soft_skills.resilence.description"
+                  "curriculum_vitae:soft_skills.ownership.description"
                 )}
               />
               <SoftSkillItem
-                name={t("curriculum_vitae:soft_skills.kindness.name")}
+                name={t("curriculum_vitae:soft_skills.resilience.name")}
                 description={t(
-                  "curriculum_vitae:soft_skills.kindness.description"
+                  "curriculum_vitae:soft_skills.resilience.description"
                 )}
               />
               <SoftSkillItem
-                name={t("curriculum_vitae:soft_skills.empathy.name")}
+                name={t("curriculum_vitae:soft_skills.requirements.name")}
                 description={t(
-                  "curriculum_vitae:soft_skills.empathy.description"
+                  "curriculum_vitae:soft_skills.requirements.description"
+                )}
+              />
+              <SoftSkillItem
+                name={t("curriculum_vitae:soft_skills.problem_solving.name")}
+                description={t(
+                  "curriculum_vitae:soft_skills.problem_solving.description"
                 )}
               />
             </div>
@@ -464,7 +468,7 @@ export default function CurriculumVitae() {
                 title={t("curriculum_vitae:education.university.title")}
                 role={t("curriculum_vitae:education.university.role")}
                 location="Viña del Mar, Chile"
-                date="2020 - 2024"
+                date="2020 - 2025"
                 url="https://www.unab.cl"
               />
 
