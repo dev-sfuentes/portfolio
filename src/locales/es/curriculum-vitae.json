@@ -46,17 +46,21 @@
   "hard_skills": {
     "environments": {
       "name": "Entornos y Herramientas",
-      "bullets": ["Git, GitHub y Gitlab", "Docker", "Linux (CLI, scripting, administración de sistemas básico)"]
+      "bullets": ["Git, GitHub y Gitlab","Docker","Linux (CLI, scripting, administración de sistemas básico)"]
     },
     "languages": {
       "name": "Lenguajes",
-      "bullets": ["JavaScript y TypeScript", "Python", "C y C++", "Nix", "Conocimiento básico: Java, C# y .NET"]
+      "bullets": ["JavaScript / TypeScript","C, C++ y C#","Java","Python","Nix","Rust"]
     },
     "databases": {
       "name": "Bases de datos"
     },
     "patterns": {
       "name": "Patrones de Diseño"
+    },
+    "applied_ai": {
+      "name": "IA Aplicada",
+      "bullets": ["LLMs", "OpenAI API", "Automatización", "Agentes"]
     }
   },
   "soft_skills": {

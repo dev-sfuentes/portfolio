@@ -439,9 +439,9 @@ export default function CurriculumVitae() {
                 }
               />
               <HardSkillItem
-                name={t("curriculum_vitae:hard_skills.environments.name")}
+                name={t("curriculum_vitae:hard_skills.applied_ai.name")}
                 bullets={
-                  t("curriculum_vitae:hard_skills.environments.bullets", {
+                  t("curriculum_vitae:hard_skills.applied_ai.bullets", {
                     returnObjects: true,
                   }) as string[]
                 }
@@ -450,6 +450,14 @@ export default function CurriculumVitae() {
                 name={t("curriculum_vitae:hard_skills.patterns.name")}
                 bullets={
                   t("curriculum_vitae:hard_skills.patterns.bullets", {
+                    returnObjects: true,
+                  }) as string[]
+                }
+              />
+              <HardSkillItem
+                name={t("curriculum_vitae:hard_skills.environments.name")}
+                bullets={
+                  t("curriculum_vitae:hard_skills.environments.bullets", {
                     returnObjects: true,
                   }) as string[]
                 }

@@ -47,23 +47,27 @@
   "hard_skills": {
     "environments": {
       "name": "Environments and Tools",
-      "bullets": ["Git, GitHub and Gitlab", "Docker", "Linux (CLI, scripting, system administration basics)"]
+      "bullets": ["Git, GitHub and Gitlab","Docker","Linux (CLI, scripting, system administration basics)"]
     },
     "languages": {
       "name": "Languages",
-      "bullets": ["JavaScript and TypeScript", "Python", "C and C++", "Nix", "Basic knowledge: Java, C# and .NET"]
+      "bullets": ["JavaScript / TypeScript","C, C++ and C#","Java","Python","Nix","Rust"]
     },
     "frameworks": {
       "name": "Frameworks",
-      "bullets": ["Angular", "React", "Laravel", "Django"]
+      "bullets": ["Angular","Laravel","React / Next","Django","Vue / Nuxt","Spring Boot"]
     },
     "databases": {
       "name": "Databases",
-      "bullets": ["PostgreSQL", "MySQL", "Firebase", "SQLite"]
+      "bullets": ["PostgreSQL","MySQL","Firebase","SQLite"]
     },
     "patterns": {
       "name": "Design Patterns",
-      "bullets": ["MVVM", "MVC"]
+      "bullets": ["MVVM","MVC"]
+    },
+    "applied_ai": {
+      "name": "Applied AI",
+      "bullets": ["LLMs","OpenAI API","Automation","Agents"]
     }
   },
   "soft_skills": {
